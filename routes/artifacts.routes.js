@@ -1,5 +1,8 @@
 import express from "express";
-import { getArtifacts } from "../controllers/artifacts.controller.js";
+import {
+  getArtifacts,
+  getArtifactById,
+} from "../controllers/artifacts.controller.js";
 
 const artifactsRouter = express.Router();
 
