@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variable files
+.env
+.env.* # For multiple environment files (e.g., .env.production, .env.development)
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Coverage directory
+coverage/
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log
+
+# Test reports
+jest-test-results.json
+*.xml
+*.out
+*.tap
+
+# Cache
+.cache/
+*.cache
